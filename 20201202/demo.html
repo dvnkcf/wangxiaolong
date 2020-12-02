@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            div{
+            height: 200px;
+            border: 1px solid red;
+            float: left;
+        }
+        .cloest{
+            background: -webkit-radial-gradient(60% 55%,circle closest-corner red,blue,green,yellow);
+            background: radial-gradient(60% 55%,circle closest-corner red,blue,green,yellow);
+        }
+        .farthest{
+            background:-webkit-radial-gradient(60% 55%,circle farthest-corner,red,blue,green,yellow);
+            background: radial-gradient(60% 55% ,circle farthest-corner,red,blue,green,yellow);
+        }
+        </style>
+    </head>
+    <body>
+        <div class="closest"></div>
+        <div class="farthest"></div>
+    </body>
+</html>
